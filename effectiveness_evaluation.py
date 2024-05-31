@@ -12,7 +12,17 @@ from scipy.optimize import linear_sum_assignment
 from torch.nn.parallel import DistributedDataParallel as DDP
 import torch.distributed as dist
 
-login(token="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")
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
+
+# Get the login token from environment variables
+login_token = os.getenv('LOGIN_TOKEN')
+
+# Check if the login token was loaded
+if login_token is None:
+    raise ValueError("Login token not found. Make sure you have set it in the .env file.")
 
 # %%
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")

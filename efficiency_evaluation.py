@@ -12,7 +12,17 @@ from scipy.optimize import linear_sum_assignment
 from torch.nn.parallel import DistributedDataParallel as DDP
 import torch.distributed as dist
 
-login(token="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")
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
+
+# Get the login token from environment variables
+login_token = os.getenv('LOGIN_TOKEN')
+
+# Check if the login token was loaded
+if login_token is None:
+    raise ValueError("Login token not found. Make sure you have set it in the .env file.")
 
 # %%
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -259,16 +269,15 @@ start_time = time.time_ns()
 for integration_set in benchmark_integration_sets:
     print("Int set:", integration_set.rsplit(os.sep,1)[-1])
     all_tables = load_all_csv_files(integration_set)
-    all_columns = create_column_dictionary(all_tables)
+    all_table_columns = create_column_dictionary(all_tables)
     
-    # print(source_table)
-    # print(source_table.columns)
-    source_column_name = source_table.columns[0]
-    source_column_values = list(source_table[source_table.columns[0]])
-    target_column_name = target_table.columns[0]
-    target_column_values = list(target_table[target_table.columns[0]])
-    gt_matches = get_value_pairs(source_column_name, target_column_name, gt_table)
-    all_columns = [source_column_values, target_column_values]
+    for columns in all_table_columns:
+        all_columns = all_table_columns[columns]
+        print(all_columns)
+        break
+    break
+    #start with the aligning columns.
+    # all_columns = [source_column_values, target_column_values]
     value_frequency = {}
     for column in all_columns:
         for value in column:
@@ -288,6 +297,8 @@ for integration_set in benchmark_integration_sets:
         for each in matching_results:
             all_matching_results.add(tuple(sorted((each[0], each[1]))))
         
+        # prepare new first column
+
         # # Print the matching results with their scores
         # print("Optimal Bipartite Matching with Scores:")
         # for pair in matching_results:
