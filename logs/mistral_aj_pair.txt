@@ -1,0 +1,191 @@
+Int set: beatles songs
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Current Precision:  0.9130434782608695
+Current Recall:  0.975
+Current F-score:  0.9430051813471502
+__________________
+
+Int set: california govs 1
+Current Precision:  0.92
+Current Recall:  0.9583333333333334
+Current F-score:  0.9387755102040817
+__________________
+
+Int set: california govs 2
+Current Precision:  0.972972972972973
+Current Recall:  0.972972972972973
+Current F-score:  0.972972972972973
+__________________
+
+Int set: chinese provinces
+Current Precision:  0.7352941176470589
+Current Recall:  1.0
+Current F-score:  0.8474576271186441
+__________________
+
+Int set: christmas songs 1
+Current Precision:  0.36046511627906974
+Current Recall:  0.8157894736842105
+Current F-score:  0.5
+__________________
+
+Int set: christmas songs 2
+Current Precision:  0.494949494949495
+Current Recall:  0.9245283018867925
+Current F-score:  0.6447368421052632
+__________________
+
+Int set: duke cs profs
+Current Precision:  0.5166666666666667
+Current Recall:  0.7045454545454546
+Current F-score:  0.5961538461538463
+__________________
+
+Int set: fruits 1
+Current Precision:  0.8181818181818182
+Current Recall:  0.8571428571428571
+Current F-score:  0.8372093023255814
+__________________
+
+Int set: fruits 2
+Current Precision:  0.8181818181818182
+Current Recall:  0.8571428571428571
+Current F-score:  0.8372093023255814
+__________________
+
+Int set: fsu name to username
+Current Precision:  0.6936936936936937
+Current Recall:  0.6936936936936937
+Current F-score:  0.6936936936936937
+__________________
+
+Int set: k12 name to email
+Current Precision:  0.8157894736842105
+Current Recall:  0.8157894736842105
+Current F-score:  0.8157894736842104
+__________________
+
+Int set: new york govs 1
+Current Precision:  0.9464285714285714
+Current Recall:  0.9636363636363636
+Current F-score:  0.9549549549549549
+__________________
+
+Int set: new york govs 2
+Current Precision:  0.9821428571428571
+Current Recall:  0.9322033898305084
+Current F-score:  0.9565217391304348
+__________________
+
+Int set: new york govs 3
+Current Precision:  0.72
+Current Recall:  0.72
+Current F-score:  0.72
+__________________
+
+Int set: new york govs 4
+Current Precision:  1.0
+Current Recall:  0.9310344827586207
+Current F-score:  0.9642857142857143
+__________________
+
+Int set: new york govs 5
+Current Precision:  1.0
+Current Recall:  1.0
+Current F-score:  1.0
+__________________
+
+Int set: park to state 1
+Current Precision:  0.38461538461538464
+Current Recall:  0.3508771929824561
+Current F-score:  0.3669724770642202
+__________________
+
+Int set: park to state 2
+Current Precision:  0.7586206896551724
+Current Recall:  0.8148148148148148
+Current F-score:  0.7857142857142857
+__________________
+
+Int set: sharif email to url
+Current Precision:  0.9598811292719168
+Current Recall:  0.9598811292719168
+Current F-score:  0.9598811292719168
+__________________
+
+Int set: sharif username to email
+Current Precision:  1.0
+Current Recall:  1.0
+Current F-score:  1.0
+__________________
+
+Int set: texas govs 1
+Current Precision:  0.92
+Current Recall:  0.92
+Current F-score:  0.92
+__________________
+
+Int set: texas govs 2
+Current Precision:  0.88
+Current Recall:  0.88
+Current F-score:  0.88
+__________________
+
+Int set: uk prime ministers
+Current Precision:  0.6981132075471698
+Current Recall:  0.5
+Current F-score:  0.5826771653543307
+__________________
+
+Int set: us cities
+Current Precision:  0.38571428571428573
+Current Recall:  0.8709677419354839
+Current F-score:  0.5346534653465347
+__________________
+
+Int set: us presidents 1
+Current Precision:  1.0
+Current Recall:  1.0
+Current F-score:  1.0
+__________________
+
+Int set: us presidents 2
+Current Precision:  1.0
+Current Recall:  0.9772727272727273
+Current F-score:  0.9885057471264368
+__________________
+
+Int set: us presidents 3
+Current Precision:  1.0
+Current Recall:  0.9772727272727273
+Current F-score:  0.9885057471264368
+__________________
+
+Int set: us presidents 4
+Current Precision:  1.0
+Current Recall:  1.0
+Current F-score:  1.0
+__________________
+
+Int set: us presidents 5
+Current Precision:  1.0
+Current Recall:  1.0
+Current F-score:  1.0
+__________________
+
+Int set: us presidents 6
+Current Precision:  1.0
+Current Recall:  0.9772727272727273
+Current F-score:  0.9885057471264368
+__________________
+
+Int set: vegetables
+Current Precision:  0.9814814814814815
+Current Recall:  0.7910447761194029
+Current F-score:  0.8760330578512396
+__________________
+
+Model name:  mistral
+Average Precision:  0.8282656857217586
+Average Recall:  0.8755231126211009
+Average f1: 0.8417488703962567

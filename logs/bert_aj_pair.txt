@@ -1,0 +1,190 @@
+Int set: beatles songs
+Current Precision:  0.9063545150501672
+Current Recall:  0.9678571428571429
+Current F-score:  0.9360967184801382
+__________________
+
+Int set: california govs 1
+Current Precision:  0.68
+Current Recall:  0.7083333333333334
+Current F-score:  0.6938775510204083
+__________________
+
+Int set: california govs 2
+Current Precision:  0.7297297297297297
+Current Recall:  0.7297297297297297
+Current F-score:  0.7297297297297297
+__________________
+
+Int set: chinese provinces
+Current Precision:  0.5294117647058824
+Current Recall:  0.72
+Current F-score:  0.6101694915254237
+__________________
+
+Int set: christmas songs 1
+Current Precision:  0.3023255813953488
+Current Recall:  0.6842105263157895
+Current F-score:  0.41935483870967744
+__________________
+
+Int set: christmas songs 2
+Current Precision:  0.32323232323232326
+Current Recall:  0.6037735849056604
+Current F-score:  0.4210526315789474
+__________________
+
+Int set: duke cs profs
+Current Precision:  0.6833333333333333
+Current Recall:  0.9318181818181818
+Current F-score:  0.7884615384615384
+__________________
+
+Int set: fruits 1
+Current Precision:  0.7272727272727273
+Current Recall:  0.7619047619047619
+Current F-score:  0.7441860465116279
+__________________
+
+Int set: fruits 2
+Current Precision:  0.6363636363636364
+Current Recall:  0.6666666666666666
+Current F-score:  0.6511627906976744
+__________________
+
+Int set: fsu name to username
+Current Precision:  0.23423423423423423
+Current Recall:  0.23423423423423423
+Current F-score:  0.23423423423423423
+__________________
+
+Int set: k12 name to email
+Current Precision:  0.2894736842105263
+Current Recall:  0.2894736842105263
+Current F-score:  0.2894736842105263
+__________________
+
+Int set: new york govs 1
+Current Precision:  0.875
+Current Recall:  0.8909090909090909
+Current F-score:  0.8828828828828829
+__________________
+
+Int set: new york govs 2
+Current Precision:  0.8571428571428571
+Current Recall:  0.8135593220338984
+Current F-score:  0.8347826086956522
+__________________
+
+Int set: new york govs 3
+Current Precision:  0.72
+Current Recall:  0.72
+Current F-score:  0.72
+__________________
+
+Int set: new york govs 4
+Current Precision:  0.8518518518518519
+Current Recall:  0.7931034482758621
+Current F-score:  0.8214285714285715
+__________________
+
+Int set: new york govs 5
+Current Precision:  1.0
+Current Recall:  1.0
+Current F-score:  1.0
+__________________
+
+Int set: park to state 1
+Current Precision:  0.2692307692307692
+Current Recall:  0.24561403508771928
+Current F-score:  0.2568807339449541
+__________________
+
+Int set: park to state 2
+Current Precision:  0.6551724137931034
+Current Recall:  0.7037037037037037
+Current F-score:  0.6785714285714286
+__________________
+
+Int set: sharif email to url
+Current Precision:  1.0
+Current Recall:  1.0
+Current F-score:  1.0
+__________________
+
+Int set: sharif username to email
+Current Precision:  1.0
+Current Recall:  1.0
+Current F-score:  1.0
+__________________
+
+Int set: texas govs 1
+Current Precision:  0.68
+Current Recall:  0.68
+Current F-score:  0.68
+__________________
+
+Int set: texas govs 2
+Current Precision:  0.72
+Current Recall:  0.72
+Current F-score:  0.72
+__________________
+
+Int set: uk prime ministers
+Current Precision:  0.8867924528301887
+Current Recall:  0.6351351351351351
+Current F-score:  0.7401574803149605
+__________________
+
+Int set: us cities
+Current Precision:  0.2857142857142857
+Current Recall:  0.6451612903225806
+Current F-score:  0.396039603960396
+__________________
+
+Int set: us presidents 1
+Current Precision:  1.0
+Current Recall:  1.0
+Current F-score:  1.0
+__________________
+
+Int set: us presidents 2
+Current Precision:  1.0
+Current Recall:  0.9772727272727273
+Current F-score:  0.9885057471264368
+__________________
+
+Int set: us presidents 3
+Current Precision:  1.0
+Current Recall:  0.9772727272727273
+Current F-score:  0.9885057471264368
+__________________
+
+Int set: us presidents 4
+Current Precision:  1.0
+Current Recall:  1.0
+Current F-score:  1.0
+__________________
+
+Int set: us presidents 5
+Current Precision:  1.0
+Current Recall:  1.0
+Current F-score:  1.0
+__________________
+
+Int set: us presidents 6
+Current Precision:  0.9767441860465116
+Current Recall:  0.9545454545454546
+Current F-score:  0.9655172413793104
+__________________
+
+Int set: vegetables
+Current Precision:  0.9259259259259259
+Current Recall:  0.746268656716418
+Current F-score:  0.8264462809917356
+__________________
+
+Model name:  bert
+Average Precision:  0.7337195571633357
+Average Recall:  0.7677595947500433
+Average f1: 0.7425005671478286
