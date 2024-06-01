@@ -39,33 +39,6 @@ benchmark_name = r"autojoin_pairs"
 
 benchmark_integration_sets = glob.glob(r"benchmark"+ os.sep + benchmark_name + os.sep + "*")
 
-# %%
-def get_value_pairs(source_col, target_col, groundtruth):
-   
-    # Determine possible column names in the ground truth DataFrame
-    possible_gt_source_cols = [source_col, f'source-{source_col}']
-    possible_gt_target_cols = [target_col, f'target-{target_col}']
-    # print("source col: ", source_col)
-    # print("target col: ", target_col)
-    # Find the actual columns in the ground truth DataFrame
-    gt_source_col = next((col for col in possible_gt_source_cols if col in groundtruth.columns), None)
-    gt_target_col = next((col for col in possible_gt_target_cols if col in groundtruth.columns), None)
-    # print(gt_source_col)
-    # print(gt_target_col)
-    if gt_source_col is None or gt_target_col is None:
-        raise ValueError("Matching columns not found in ground truth DataFrame")
-
-    # Extract the relevant columns from the ground truth DataFrame
-    source_column_in_gt = groundtruth[gt_source_col]
-    target_column_in_gt = groundtruth[gt_target_col]
-
-    # Zip these columns together to create tuples
-    value_pairs = zip(source_column_in_gt, target_column_in_gt)
-
-    # Convert these tuples to a set to ensure uniqueness
-    value_pairs_set = set(value_pairs)
-    value_pairs_set= {tuple(sorted(pair)) for pair in value_pairs_set}
-    return value_pairs_set
 
 # %%
 # texts1_list = ["Berlinn", "Toronto", "Barcelona"]
