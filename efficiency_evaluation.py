@@ -28,7 +28,7 @@ if login_token is None:
 
 
 # %%
-model_name = "mistral"
+model_name = "roberta"
 model, tokenizer = load_embedding_model(model_name)
 
 # %%
@@ -65,6 +65,7 @@ for integration_set in benchmark_integration_sets:
                     value_frequency[value] += 1
                 else:
                     value_frequency[value] = 1
+        print(value_frequency)
         all_matching_results = set()
         first_column = all_columns.pop(0)
         replacements = {}
@@ -76,6 +77,8 @@ for integration_set in benchmark_integration_sets:
 
             matching_results, combined_embeddings, unmatched_texts1, unmatched_texts2 = apply_bipartite_matching_simple(average_embeddings_1, average_embeddings_2, texts1, texts2, threshold = 0.3)
             new_first_column = set(unmatched_texts1).union(set(unmatched_texts2))
+            print(new_first_column)
+            print(matching_results)
             for each in matching_results:
                 all_matching_results.add(tuple(sorted((each[0], each[1]))))
                 if value_frequency[each[0]] >= value_frequency[each[1]]:
@@ -93,7 +96,6 @@ for integration_set in benchmark_integration_sets:
         print(f"before combination: {len(value_frequency)}")
         print(f"after combination: {len(first_column)}")
         print(f"first column: {first_column}")
-        
         # # Print the matching results with their scores
         # print("Optimal Bipartite Matching with Scores:")
         # for pair in matching_results:
