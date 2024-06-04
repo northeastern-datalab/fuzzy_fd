@@ -31,7 +31,7 @@ print(f"Using device: {device}")
 
 
 # %%
-model_name = "llama3"
+model_name = "mistral"
 model, tokenizer = load_embedding_model(model_name)
 
 # %%

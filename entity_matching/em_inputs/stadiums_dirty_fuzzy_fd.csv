@@ -1,0 +1,106 @@
+index,player,position,team,facility,location,capacity,opened
+0,justin herbert,qb,chargers,sofi stadium,"inglewood, california","70,240",2020
+1,david montgomery,rb,bears,soldier field,"chicago, illinois","61,500",1924[nb 1]
+2,von miller,lb,bills,bills stadium,"orchard park, new york","71,608",1973
+3,trent williams,ot,49ers,levi's stadium,"santa clara, california","68,500",2014
+4,lamar jackson,qb,ravens,m&t bank stadium,"baltimore, maryland","71,008",1998
+5,myles garrett,de,browns,firstenergy stadium,"cleveland, ohio","67,895",1999
+6,tom brad,qb,buccaneer,raymond james,"tampa, florida","65,890",1998
+7,joe burrow,qb,bengals,paul brown stadium,"cincinnati, ohio","65,515",2000
+8,dalvin cook,rb,vikings,u.s. bank stadium,"minneapolis, minnesota","66,655",2016
+9,cameron heyward,de,steelers,heinz field,"pittsburgh, pennsylvania","68,400",2001
+10,chris jones,de,chiefs,arrowhead stadium,"kansas city, missouri","76,416",1972
+11,nike bosa,de,49ers,levi's stadium,"santa clara, california","68,500",2014
+12,trey hendrickson,de,bengals,paul brown stadium,"cincinnati, ohio","65,515",2000
+13,tristan wirfs,ot,buccaneers,raymond james stadium,"tampa, florida","65,890",1998
+14,kenny moore ii,cb,colts,lucas oil stadium,"indianapolis, indiana","67,000",2008
+15,darius slay,cb,eagles,lincoln financial field,"philadelphia, pennsylvania","69,596",2003
+16,kirk cousins,qb,vikings,u.s. bank stadium,"minneapolis, minnesota","66,655",2016
+17,darren waller,te,raiders,allegiant stadium,"paradise, nevada","65,000",2020
+18,maxx crosby,de,raiders,allegiant stadium,"paradise, nevada","65,000",2020
+19,josh allen,qb,bills,bills stadium,"orchard park, new york","71,608",1973
+20,derwin james,s,chargers,sofi stadium,"inglewood, california","70,240",2020
+21,wyatt teller,g,browns,firstenergy stadium,"cleveland, ohio","67,895",1999
+22,alvin kamara,rb,saints,mercedes-benz superdome,new orleans,"73,208",1975
+23,rashawn slater,ot,chargers,sofi stadium,"inglewood, california","70,240",2020
+24,micah parsons,lb,dallas cowboys,at&t stadium,"arlington, texas","80,000",2009
+25,cordarrelle patterson,rb,falcons,mercedes-benz stadium,"atlanta, georgia","71,000",2017
+26,cameron jordan,de,saints,mercedes-benz superdome,"new orleans, louisiana","73,208",1975
+27,zack martin,g,dallas cowboys,at&t stadium,"arlington, texas","80,000",2009
+28,jason kelce,c,eagles,lincoln financial field,"philadelphia, pennsylvania","69,596",2003
+29,deebo samuel,wr,49ers,levi's stadium,"santa clara, california","68,500",2014
+30,tyrann mathieu,s,saints,mercedes-benz superdome,"new orleans, louisiana","73,208",1975
+31,fred warner,lb,49ers,levi's stadium,"santa clara, california","68,500",2014
+32,kyler murray,qb,cardinals,state farm stadium,"glendale, arizona","63,400",2006
+33,tyreek hill,wr,dolphins,hard rock stadium,"miami gardens, florida","65,326",1987
+34,jonathan taylor,rb,colts,lucas oil stadium,"indianapolis, indiana","67,000",2008
+35,james conner,rb,cardinals,state farm stadium,"glendale, arizona","63,400",2006
+36,quandre diggs,s,seahawks,lumen field,"seattle, washington","69,000",2002
+37,j.c. jackson,cb,chargers,sofi stadium,"inglewood, california","70,240",2020
+38,george kittle,te,49ers,levi's stadium,"santa clara, california","68,500",2014
+39,jaylen waddle,wr,dolphins,hard rock stadium,"miami gardens, florida","65,326",1987
+40,roquan smith,lb,bears,soldier field,"chicago, illinois","61,500",1924[nb 1]
+41,jamarr chase,wr,bengals,paul brown stadium,"cincinnati, ohio","65,515",2000
+42,marshon lattimore,cb,saints,mercedes-benz superdome,"new orleans, louisiana","73,208",1975
+43,tom brady,qb,buccaneers,raymond james stadium,"tampa, florida","65,890",1998
+44,kevin byard,nan,titans,nissan stadium,"nashville, tennessee","69,143",1999
+45,corey linsley,nan,chargers,sofi stadium,"inglewood, california","70,240",2020
+46,deandre hopkins,nan,cardinals,state farm stadium,"glendale, arizona","63,400",2006
+47,keenan allen,nan,chargers,sofi stadium,"inglewood, california","70,240",2020
+48,austin ekele,nan,chargers,sofi stadium,inglewood,"70,240",2020
+49,deforest buckner,nan,colts,lucas oil stadium,"indianapolis, indiana","67,000",2008
+50,justin tucker,nan,ravens,m&t bank stadium,"baltimore, maryland","71,008",1998
+51,josh allen,nan,commanders,fedexfield,"landover, maryland","82,000",1997
+52,antoine winfield jr.,nan,buccaneers,raymond james stadium,"tampa, florida","65,890",1998
+53,jeffery simmons,nan,titans,nissan stadium,"nashville, tennessee","69,143",1999
+54,chandler jones,nan,raiders,allegiant stadium,"paradise, nevada","65,000",2020
+55,andrews,nan,ravens,m&t bank stadium,baltimore,"71,008",1998
+56,micah hyde,nan,bills,bills stadium,"orchard park, new york","71,608",1973
+57,kyle juszczyk,nan,49ers,levi's stadium,"santa clara, california","68,500",2014
+58,tyron smith,nan,dallas cowboys,at&t stadium,"arlington, texas","80,000",2009
+59,demario davis,nan,saints,mercedes-benz superdome,"new orleans, louisiana","73,208",1975
+60,robert quinn de,nan,bears,soldier field,"chicago, illinois","61,500",1924[nb 1]
+61,xavien howard,nan,dolphins,hard rock stadium,"miami gardens, florida","65,326",1987
+62,justin simmons,nan,broncos,empower field at mile high,"denver, colorado","76,125",2001
+63,mac jones,nan,patriots,gillette stadium,"foxborough, massachusetts","66,829",2002
+64,kyle pitts,nan,falcons,mercedes-benz stadium,"atlanta, georgia","71,000",2017
+65,derek carr,nan,raiders,allegiant stadium,"paradise, nevada","65,000",2020
+66,budda baker,nan,cardinals,state farm stadium,"glendale, arizona","63,400",2006
+67,devin white,nan,buccaneers,raymond james stadium,"tampa, florida","65,890",1998
+68,brian burns,nan,panthers,bank of america stadium,"charlotte, north carolina","75,523",1996
+69,t.j. watt,nan,steelers,heinz field,"pittsburgh, pennsylvania","68,400",2001
+70,mark andrews,nan,ravens,m&t bank stadium,"baltimore, maryland","71,008",1998
+71,joe mixon,nan,bengals,paul brown stadium,"cincinnati, ohio","65,515",2000
+72,josh allen,qb,bills,fedexfield,"landover, maryland",nan,1997
+73,nick chubb,rb,browns,firstenergy stadium,nan,"67,895",1999
+74,j. jefferson,wr,vikings,u.s. bank stadium,nan,"66,655",2016
+75,ja'marr chase,wr,bengals,paul brown stadium,nan,"65,515",2000
+76,shaquille leonard,lb,colts,lucas oil stadium,nan,"67,000",2008
+77,jimmie ward,s,49ers,levi's stadium,nan,"68,500",2014
+78,denzel ward,cb,browns,firstenergy stadium,nan,"67,895",1999
+79,matthew judon,lb,patriots,gillette stadium,nan,"66,829",2002
+80,derrick henry,rb,titans,nissan stadium,nan,"69,143",1999
+81,travis kelce,te,chiefs,arrowhead stadium,nan,"76,416",1972
+82,da hopkins,wr,cardinals,state farm stadium,nan,"63,400",2006
+83,shaquil barrett,lb,buccaneers,raymond james stadium,nan,"65,890",1998
+84,joey bosa,lb,chargers,sofi stadium,nan,"70,240",2020
+85,russell wilson,qb,broncos,empower field at mile high,nan,"76,125",2001
+86,dak prescott,qb,dallas cowboys,at&t stadium,nan,"80,000",2009
+87,davante adams,wr,raiders,allegiant stadium,nan,"65,000",2020
+88,nick bosa,de,49ers,levi's stadium,nan,"68,500",2014
+89,stefon diggs,wr,bills,bills stadium,nan,"71,608",1973
+90,trevon diggs,cb,dallas cowboys,at&t stadium,nan,"80,000",2009
+91,austin ekeler,rb,chargers,sofi stadium,nan,"70,240",2020
+92,joel bitonio,g,browns,firstenergy stadium,nan,"67,895",1999
+93,patrick mahomes ii,qb,chiefs,arrowhead stadium,nan,"76,416",1972
+94,aaron rodgers,qb,packers,lambeau field,nan,"81,441",1957
+95,justin jefferson,wr,vikings,u.s. bank stadium,nan,"66,655",2016
+96,jordan poyer,s,bills,bills stadium,nan,"71,608",1973
+97,de'vondre campbell,lb,packers,lambeau field,nan,"81,441",1957
+98,ceedee lamb,wr,dallas cowboys,at&t stadium,nan,"80,000",2009
+99,quenton nelson,g,colts,lucas oil stadium,nan,"67,000",2008
+100,mike evans,wr,buccaneers,raymond james stadium,nan,"65,890",1998
+101,quenton nelson,g,colts,lucas stadium,nan,"67,000",nan
+102,shaquille leonard,lb,colts,lucas stadium,nan,"67,000",nan
+103,kenny moore ii,cb,colts,lucas stadium,nan,"67,000",nan
+104,jonathan taylor,rb,colts,lucas stadium,nan,"67,000",nan

@@ -28,7 +28,7 @@ if login_token is None:
 
 
 # %%
-model_name = "roberta"
+model_name = "mistral"
 model, tokenizer = load_embedding_model(model_name)
 
 # %%
@@ -58,6 +58,9 @@ for integration_set in benchmark_integration_sets:
         # all_columns = [source_column_values, target_column_values]
         if len(all_columns) <2: #singleton column
             continue
+        if getColumnType(all_columns[0]) == 0:
+            print("a numeric column.")
+            continue
         value_frequency = {}
         for column in all_columns:
             for value in column:
@@ -65,7 +68,7 @@ for integration_set in benchmark_integration_sets:
                     value_frequency[value] += 1
                 else:
                     value_frequency[value] = 1
-        print(value_frequency)
+        # print(value_frequency)
         all_matching_results = set()
         first_column = all_columns.pop(0)
         replacements = {}
@@ -75,27 +78,32 @@ for integration_set in benchmark_integration_sets:
             average_embeddings_1 = get_each_cell_embeddings(texts1, model_name, model, tokenizer)
             average_embeddings_2 = get_each_cell_embeddings(texts2, model_name, model, tokenizer)
 
-            matching_results, combined_embeddings, unmatched_texts1, unmatched_texts2 = apply_bipartite_matching_simple(average_embeddings_1, average_embeddings_2, texts1, texts2, threshold = 0.3)
+            matching_results, combined_embeddings, unmatched_texts1, unmatched_texts2 = apply_bipartite_matching(average_embeddings_1, average_embeddings_2, texts1, texts2, threshold = 0.7)
             new_first_column = set(unmatched_texts1).union(set(unmatched_texts2))
-            print(new_first_column)
-            print(matching_results)
+            # print(new_first_column)
+            # print(matching_results)
             for each in matching_results:
                 all_matching_results.add(tuple(sorted((each[0], each[1]))))
                 if value_frequency[each[0]] >= value_frequency[each[1]]:
                     new_first_column.add(each[0])
+                    # if each[1] in new_first_column:
+                    #     new_first_column.remove(each[1])
                     replacements[each[0]] = each[0]
                     replacements[each[1]] = each[0]
                 else:
                     new_first_column.add(each[1])
+                    # if each[0] in new_first_column:
+                    #     new_first_column.remove(each[0])
                     replacements[each[0]] = each[1]
                     replacements[each[1]] = each[1]
             first_column = list(new_first_column)
         print(f"Done for {matching_columns}.")
         # prepare new first column
-        print(f"replacements:", replacements)
-        print(f"before combination: {len(value_frequency)}")
-        print(f"after combination: {len(first_column)}")
-        print(f"first column: {first_column}")
+        # print(f"matches: {all_matching_results}")
+        # print(f"replacements:", replacements)
+        # print(f"before combination: {len(value_frequency)}")
+        # print(f"after combination: {len(first_column)}")
+        # print(f"first column: {first_column}")
         # # Print the matching results with their scores
         # print("Optimal Bipartite Matching with Scores:")
         # for pair in matching_results:

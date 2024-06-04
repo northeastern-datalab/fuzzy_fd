@@ -11,6 +11,26 @@ from scipy.optimize import linear_sum_assignment
 from torch.nn.parallel import DistributedDataParallel as DDP
 import torch.distributed as dist
 
+# %%
+#This function takes a column and determines whether it is text or numeric column
+#This has been done using a well-known information retrieval technique
+#Check each cell to see if it is text. Then if enough number of cells are 
+#text, the column is considered as a text column.
+def getColumnType(attribute, column_threshold=0.5, entity_threshold=0.5):
+    strAttribute = [item for item in attribute if type(item) == str]
+    strAtt = [item for item in strAttribute if not item.isdigit()]
+    for i in range(len(strAtt)-1, -1, -1):
+        entity = strAtt[i]
+        num_count = 0
+        for char in entity:
+            if char.isdigit():
+                num_count += 1
+        if num_count/len(entity) > entity_threshold:
+            del strAtt[i]            
+    if len(strAtt)/len(attribute) > column_threshold:
+        return 1
+    else:
+        return 0
 
 # %%
 def load_embedding_model(model_name):
