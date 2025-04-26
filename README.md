@@ -17,7 +17,7 @@ Data integration is an important step in any data science pipeline where the obj
 - **README.md** file explains the repository.
 - **requirements.txt** file contains necessary packages to run the project.
 - **plots** folder contains the plots reported in the paper.
-- **stats** folder contains experimental statistics reported in the paper.
+- **stats** folder contains experimental statistics reported in the paper, including for baselines.
 
 ## Setup
 
