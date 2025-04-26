@@ -1,6 +1,6 @@
 # Fuzzy Integration of Data Lake Tables 
 
-Anonymous Authors
+Aamod Khatiwada, Roee Shraga, Renée J. Miller
 
 ![Fuzzy full disjunction block diagram](fuzzy_fd.jpg)*Block Diagram of Fuzzy Full Disjunction*
 
